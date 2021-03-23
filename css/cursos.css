@@ -1,0 +1,55 @@
+.cursos-container{
+    display: flex;
+    flex-flow: row wrap; 
+    margin-top: 0;
+    justify-content: space-around;    
+    background: linear-gradient(steelblue , lightblue , white); 
+
+}
+
+.cursos{
+    margin:30px
+ }
+ 
+ 
+ .conteudo {
+     
+     padding: 20px;
+     margin-right: 40px;
+ }
+ 
+ .conteudo__titulo {
+     font-size: 40px;
+     font-family: Josefin Sans ;
+     margin-left: 30%;
+     margin-top: 3rem;
+     font-weight: 500;
+ 
+    
+ }
+ 
+ .conteudo__img{
+     width: 480px;
+     height: 300px;
+     margin: 20px 20px; 
+ 
+ 
+ }
+ 
+ .conteudo__subtitulo , .conteudo__link{
+     font-size: 1.5rem;
+     text-align: center;  
+     font-family: Josefin Sans ;
+     text-transform: uppercase;
+     margin-bottom: 1.5rem;
+     text-decoration: none;
+     color: black;
+     margin-top: 0;
+    
+ }
+ 
+ .conteudo__link:hover{
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ 

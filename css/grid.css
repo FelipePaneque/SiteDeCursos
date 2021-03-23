@@ -1,0 +1,99 @@
+.caixa{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.grid{
+    grid-template-areas: "cursos";
+    grid-area: cursos;
+}
+
+.cursos{
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: 33.18% 33.18% 33.18%;
+    grid-template-rows: 49.8% 49.8%;
+    height: calc(100vh - 50px);
+    background: linear-gradient(steelblue , lightblue , white); 
+
+}
+
+.conteudo__titulo{
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    padding: .6rem;
+    text-align: center;
+    width: 99%;
+    margin: 0;
+    text-decoration: none;
+}
+
+.conteudo__titulo:hover{
+    border-bottom: 4px solid orange;
+    border-top: 4px solid orange;
+   
+}
+
+.conteudo:nth-child(1){
+    background-image: url(../imgs/night-1927265_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+   
+}
+
+.conteudo:nth-child(2){
+    background-image: url(../imgs/office-594132_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+   
+}
+
+.conteudo:nth-child(3){
+    background-image: url(../imgs/work-731198_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.conteudo:nth-child(4){
+    background-image: url(../imgs/entrepreneur-1340649_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.conteudo:nth-child(5){
+    background-image: url(../imgs/computer-1245714_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.conteudo:nth-child(6){
+    background-image: url(../imgs/ux-788002_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.cursos1{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: steelblue;
+    
+}

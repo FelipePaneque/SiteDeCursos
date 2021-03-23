@@ -1,0 +1,48 @@
+@media (min-width: 320px ){
+   
+    header{
+        position: inherit;
+        height: 600px;
+        width: 100%;
+
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    
+        border-bottom: 1px solid rgb(184, 33, 33);
+
+    }
+
+    header h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-principal{
+        position: inherit;
+    }
+
+    .menu-principal ul {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .menu-principal ul li {
+        margin-top: 1em;
+    }
+
+    .menu-principal a {
+        font-size: 40px;
+    }
+
+    .destaque{
+        background: none;
+        background-color: lightgray;
+    }
+
+}
